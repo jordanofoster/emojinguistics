@@ -1,0 +1,169 @@
+﻿Emojinguistics
+
+{🆕} New sentence/command/etc.
+{🔚} End of command/statement/etc.
+
+{〽}
+	🆕{👓🔄🔃}:[➡️, ⬇️] 	Reading direction, [primary,secondary] (i.e. left-to-right, top-to-bottom).
+	🆕{🗨️}:🇬🇧,🇪🇸  		Language(s), from native > least capable
+	🆕{👁️‍🗨️}:✔️ 			I do/do not trust the security of this channel
+{🔚}
+
+✔️/❌: Standard Yes/No response. Can be used as a response to questions.
+
+Example responses to preamble:
+{👓🔄🔃};✔️ - Yes, this is acceptable.
+{🗨️}❌(🇬🇧);🇪🇸? - I don't speak english; Can we speak spanish instead?
+{👁️‍🗨️}❌;🆕️‍{👁️‍🗨️}? - I do not trust the security of this channel; can we talk elsewhere?
+
+{💬} Statement
+	Subject:
+		Format: <visual subject>(property[value])
+			e.g. 🧑(📏[6'3''], ⚖️[160lbs], ⏲️[25], 📛[John Smith], 🇫🇷, 🛰️[40.741895,-73.989308]])
+			6'3'' 160lbs person named John Smith, age 25, French, at GPS coords 40.741895,-73.989308
+		
+		Subjects are typically interpreted literally from their pictogram.
+		As a result, bigrams are the typical method of describing a subject in detail.
+		Properties are intended to show information that cannot be derived from a bigram.
+		Values are intended to clarify the nature of this information through written text.
+
+		Properties:
+			📏: Distance/dimensional measurement
+			⚖️: Mass/weight measurement
+			🌡️:	Thermal measurement
+				❄️: Cold
+				🔥: 	Hot
+				Weather:
+					☁️: Cloudy
+					⛅: Overcast
+					🌫️: Foggy
+					🌨️: Snowing
+					🌧️: Raining
+					🌩️: Thunder
+					⛈️: Stormy
+					☀️: Sunny
+			🎚️: 	Sonic measurement
+				🔇: No volume
+				🔈: 	Low volume
+				🔉:	Medium volume
+				🔊: High volume
+			🧲: Magnetic measurement
+			🧪: Chemical measurement
+			☢️: Radioactive measurement
+			✨: Light-based measurement
+			⚡: Electronic measurement
+			⚛️: State(s) of matter
+			
+			⏲️: Measurement of time (age/time taken[Time/Date/etc]).
+				⏳: In progress
+				⌛: Finished
+			⌚: Specific time (e.g. 13:23+00:00).
+				Assume current day if not specified via 📅.
+			📅: Specific date, of any resolution (e.g. 📅[25th December 1985], or simply 📅[Monday].
+				Assume current week/month/year if not specified.
+			📅⌚: Specific timestamp (e.g. 25/12/1985 13:23:00+00:00)
+			
+			📛: Unique Identifier
+			Location of subject:
+				🏴: 		Nationality/Location (Country-level)
+				🌎/🌍/🌏: 	Regional location (America/Europe+Africa/Asia+Australia)
+				🏠: 		Address (can be substituted with any other building emoji, or used with building as subject)
+				🛰️: 		GPS Coordinate [Latitude,Longitude,Altitude]
+		Non-symbolic Descriptors:
+			Adjectives and Adverbs:
+				Both are represented in the format <noun/verb>(property[value]). 
+				e.g. 🧑(🇫🇷) ➡️ 🎸(🔈[🎚️ = ~45dB])
+				A french person is playing the guitar quietly at a volume of roughly 45 decibels.
+			
+		Symbolic Descriptors:
+			->/➡️: (towards primary reading direction): approaching/going towards/doing/using
+			<-/⬅️:	(away from primary reading direction): leaving/coming away from/stopping
+			⬆️⬆️/➡️➡️/⬇️⬇️/⬅️⬅️: Directed towards <subject>
+			@ : Is located/is at <subject>
+			+ : Including/In addition to
+			++: Increasing
+			- : Excluding/Minus/Apart from
+			--: Decreasing
+			= : Is/Is equivalent/equal to
+			> : Is greater/better/bigger than
+				>=: XOR of > and =
+			< : Is less/worse/smaller than
+				<=: XOR of < and =
+			% : Is part of/a percentage of
+			$/etc.: Is worth
+			"<text>": Quotation 
+			|: Change of topic/subject/etc. ('piping')
+			*: 'Includes all of' (e.g. *🐕 is 'All dogs')
+			#: Number/ID/Numeric value
+			~: Roughly/Vaguely
+			!: Equivalent of NOT (e.g. != means NOT equivalent to)
+			&: 'and/as well as'
+			: - 'links' command/emoji to meaning, for on-the-fly conversation. E.g.
+				1) 
+			; - 'links' emojis/commands (e.g. {⤴️};{?😕} = "[in response to previous message] how come?")
+	
+	If no subject is given and a command {!} is not used, the implicit subject is the author of the message.
+	
+	Tense:
+		➡️⌚: 	'Forward in time'/Future (explicit)
+				(e.g. ➡️⌚(4pm[🎸]) = "[I will play guitar] at 4pm [next known "4pm"]."
+		⬅️⌚:	'Backwards in time'/Past (explicit) 
+				(e.g. ⬅️⌚(4pm[🎸]) = "[I played guitar] at 4pm [last known "4pm"]."
+				
+				"Last known/Next known" can be explicitly stated:
+					(e.g. ⬅️⌚(4pm[🎸] 📅[25/12/2002]) = "[I played guitar] at 4pm on 25/12/2002.
+
+		⌚: 	'Specific point in time (implict tense)'/Present (if no time given) 
+				(e.g. ⌚(4pm[🎸]) = "[I am playing my guitar] at 4pm."
+				(e.g. ⌚(🎸) = I am currently playing my guitar.
+		
+		If ⌚ is not associated with an action/event, the presumed time is 'now'.
+		Statements without a ⌚ are considered 'timeless', in that their context is up to interpretation based on subject.
+
+{ℹ️}  Information		
+{💭} 	Thought
+{🗯️} 	Announcement/Exclamation (General):
+	News:
+		{🗯️📰/🗞️} Article/Written
+		{🗯️📻} Radio/Spoken
+		{🗯️📺} TV/Shown
+		
+{⚠} 	Threat/Danger/Alert
+{〽️}	Change to preamble
+			Format: {<key>}:<new value>
+{🆕〽️} 	Entirely new preamble
+{🔚}		
+
+{⤴️} Response to previous message. Can be used in lieu of {<prior message/phrase>};{<response>}.
+
+
+{?👥}	Who
+{??} 	What (also used for general query, i.e. {??🗼} (What is this emoji/What is the Tokyo Tower?)
+{?⌚} 	When
+{?🗺} 	Where
+{?🤔}	Why
+{?😕}	How
+
+{!} refers to commands/the other (e.g. {!}🗞️💥 ➡️➡️ 🐀 = "[hit the] rat with the rolled up newspaper."
+
+{[?]} notifies the other user that you are unable to render one of their emojis (copy and paste it back.)
+(e.g. {[?]}🫵
+
+{🔙} refers to "ignore/amend prior message."
+🔝 refers to the prior message.
+Can be used as a form of agreement i.e. 🔝👍 ~= "This."
+
+Each emoji is defined as follows:
+
+Type: Meaning/Command/Subject/Property/Symbolic
+
+Meaning refers to a standardized interpretation of the emoji.
+	Meanings are split into literal and figurative.
+Commands are encapsulated with {}.
+Subjects are defined as 🐀(<properties>).
+Properties are used inside of subjects, in format 🐀(🗞️(<value>).
+Symbolic emojis are used on their own to represent concepts, phrases or other such terminology.
+
+Example:
+
+💥
