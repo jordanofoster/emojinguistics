@@ -8,7 +8,7 @@ Linguistic communication method based almost entirely on emojis/pictograms. Inte
 
 This small project was initially the outcome of a bit of boredom on a lazy saturday afternoon, where I was reading a little about stylometry in regards to identifying authorship, and how few countermeasures were present. While wondering if there even *was* a solution, I was hit with a thought: 
 
-*Remember that one time some people [made Emojili, a social media app where you could only talk using emojis?](https://www.youtube.com/watch?v=GsyhGHUEt-k) That was an amusing idea.* 
+*Remember that one time some people [made Emojli, a social media app where you could only talk using emojis?](https://www.youtube.com/watch?v=GsyhGHUEt-k) That was an amusing idea.* 
 
 *What if I actually tried to make it work as a language?*
 
