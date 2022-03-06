@@ -60,6 +60,6 @@ Emojinguistics aims to maintain ability to express ideas, thoughts and commentar
   - The idea is that any remaining expression (i.e. the order in which you write your properties) will not be sufficient to inform an adversary as to what kind of person you are.
   - At worst, they can identify who is talking by their 'writing' style, and potentially the language they're speaking (via the text in properties/values).
     - The latter is easily changeable, while the former _is_ difficult in standard linguistics.
-      - It is significantly easier to do the latter in Emojinguistics as part of standard [OPSEC](https://en.wikipedia.org/wiki/Operations_security)-related [tradecraft](https://en.wikipedia.org/wiki/Tradecraft), however.
+      - It is significantly easier to change your 'writing style' in Emojinguistics as part of standard [OPSEC](https://en.wikipedia.org/wiki/Operations_security)-related [tradecraft](https://en.wikipedia.org/wiki/Tradecraft), however.
   - This could be easily broken by dabbling with more expressive aspects of language in Emojinguistics.
     - This is simply a matter of good OPSEC however - say what needs to be said and no more.
